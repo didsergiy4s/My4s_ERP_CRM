@@ -59,6 +59,8 @@ Follow the instructions in the Help file.
 If this project helped you, please consider supporting it:
 * **PayPal:** [Donate via PayPal](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=sergey2429@i.ua&currency_code=USD)
 
+* Для украины в гривнях карточка Ощад банка : 5167 8032 1042 4912
+
 ---
 
 ## License
