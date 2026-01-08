@@ -55,11 +55,9 @@ Follow the instructions in the Help file.
 
 ---
 
-## 💖 Support the Project
-
-Your support helps keep this project alive and growing.  
-If you find My4S useful, you can support it directly via PayPal:
-[![PayPal.me](https://img.shields.io/badge/Donate-PayPal.me-blue)](https://www.paypal.me/sergey2429)
+## 💖 Support
+If this project helped you, please consider supporting it:
+* **PayPal:** [Donate via PayPal](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=sergey2429@i.ua&currency_code=USD)
 
 ---
 
