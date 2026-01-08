@@ -1,4 +1,4 @@
-License and usage
+License and usage(MIT)
 
 My4S can be used free of charge in any environment, including but not limited to: personal, academic, commercial, governmental, corporate, non-profit, and commercial applications. “Free of charge” means there is no fee for installing and using My4S. Anyone who obtains a copy of this software has the right to use it without restrictions, including: use, copying, modification, publication, distribution, and granting access to other users with the same rights.
 
