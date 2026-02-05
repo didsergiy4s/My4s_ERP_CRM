@@ -11,6 +11,8 @@
  4. **Автоматизация бизнес‑процессов** Создание документов и регистров для автоматизации ключевых процессов — от зарплаты до планирования задач.
  5. **Гибкая настройка** Добавление новых модулей и функций, расширение отчетности, интеграция с другими сервисами.
 
+В целом My4S — готовый стартап, которому не хватает лишь одного: чтобы кто-то поверил в программу.
+
 Выражаю большую благодарность разработчикам Node.js, баз данных Firebird, Firebird Editor Pro, Visual Studio Code!
 
   --- ## Документация -
@@ -55,7 +57,8 @@ My4S can be a great tool for small and medium-sized businesses, especially if yo
 
 5. **Flexible Customization**  
    Add new modules and functions, expand reporting, and integrate with other services.
-
+   
+Overall, My4S is a ready-made startup that lacks only one thing: for someone to believe in the program.
 ---
 I express my deep gratitude to the developers of Node.js, Firebird databases, Firebird Editor Pro, Visual Studio Code!
 
