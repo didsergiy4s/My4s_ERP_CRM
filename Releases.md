@@ -1,1 +1,0 @@
-Description of how to work with the next releases!     Опис як працювати з наступними релізами!
