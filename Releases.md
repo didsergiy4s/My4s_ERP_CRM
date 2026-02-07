@@ -1,1 +1,1 @@
-Description of how to work with the next releases!    |     (ua)Опис як працювати з наступними релізами!
+Brief descriptions of the releases will be provided here.
