@@ -5,13 +5,13 @@ then simply copy the My4S folder from the new release to the main My4S folder. I
 Otherwise, you'll overwrite your work!
 You can't skip releases. Copy them one by one, as they appear.
 
-v1.0.1 Changes in file .../My4s/cf/Short.htm. A new const type has been added to the ID_DB table.
+v1.0.1: Changes in file .../My4s/cf/Short.htm. A new const type has been added to the ID_DB table.
 A const must describe the value of the constant; it can be a number, a string, or a JSON string that can describe multiple parameters.
 When using constants, you must know the string type and use it accordingly!
 
-v1.0.2 Changes in file .../My4s/cf/METADATA.htm. The ID_DB table now supports filtering by type.
+v1.0.2: Changes in file .../My4s/cf/METADATA.htm. The ID_DB table now supports filtering by type.
 
-v1.0.3 Changes in file .../My4s/js/Blob.js. Clients can now work with the database across time zones.
+v1.0.3: Changes in file .../My4s/js/Blob.js. Clients can now work with the database across time zones.
 Clients can be located in different countries or in a single country with multiple time zones. How do we store dates on the server?
 We do this: the server, regardless of the time zone, is always linked to London's zero time zone (winter only!).
 And for each client, we always calculate the offset relative to London (timezoneOffset) and adjust the client's date by this offset when writing dates to the server.
