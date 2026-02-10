@@ -17,5 +17,6 @@ When receiving date reports, again using the offset, we get a report for the cli
 By default, the program is configured to work in a single time zone. In the Blob.js module, at the very beginning, there is a variable: let timezoneOffset = 0;
 If you assign this variable a value of 1, then the program will work with multiple time zones!
 Attention! This constant cannot be changed during operation. It must be configured at the very beginning of the My4S implementation!
+
 All releases from v1.0.1 to v1.0.3 are included in a single zip file, My4S_v1.0.3.zip!
 
