@@ -20,3 +20,16 @@ Attention! This constant cannot be changed during operation. It must be configur
 
 All releases from v1.0.1 to v1.0.3 are included in a single zip file, My4S_v1.0.3.zip!
 
+v1.0.5 Changes in files:
+DOCS_jrn.htm, DOCS_db.htm, All_db.js, All_dbdoc.js, print.js, Blob.js
+All_cfcf.js, All_dball.js, MyBase.json, MyDB.js 
+Several minor bugs have been fixed. 
+There is a new ability to prepare templates (Layouts) using Excel.xlsx. 
+Of course, the layout could also be prepared using HTML (by default in My4s it is simple 
+a report on tabular parts is created almost automatically, but this is not always enough). 
+There are often complex report layouts (for example, layouts such as Tax Invoice, 
+Waybills and others). But the time required to prepare such a layout 
+will be many times more using HTML than preparing such a report in Excel. 
+You can read how to work with Excel in Help.PDF in the New (Excel) branch.
+
+
