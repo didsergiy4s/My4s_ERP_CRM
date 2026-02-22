@@ -33,8 +33,6 @@ My4S can be a great tool for small and medium-sized businesses, especially if yo
 ---
 I express my deep gratitude to the developers of Node.js, Firebird databases, Firebird Editor Pro, Visual Studio Code!
 
-In general, My4S is a ready-made startup that lacks only one thing: someone to believe in the program.
-
 ## Documentation
 
 - ߓĠ[Help4s_en.pdf](Help4s_en.pdf) — English description  
