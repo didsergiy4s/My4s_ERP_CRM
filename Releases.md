@@ -30,3 +30,11 @@ There are often complex report layouts (for example, layouts such as Tax Invoice
 But the time required to prepare such a layout 
 will be many times more using HTML than preparing such a report in Excel. 
 You can read how to work with Excel in Help.PDF in the New (Excel) branch.
+
+
+v1.0.6 Izmeneniya v faylakh: print.js, MyDB.js, MyMETADATA.js, MyComand.js, MySelect.js Ustraneno neskol'ko melkikh bagov. Usovershenstvovana logika pri vyvode na pechat' PDF.
+178
+v1.0.6 Changes in files:
+print.js, MyDB.js, MyMETADATA.js, MyComand.js, MySelect.js
+Several minor bugs have been fixed.
+Improved PDF printing logic.
