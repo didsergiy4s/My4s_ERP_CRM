@@ -35,3 +35,4 @@ v1.0.6 Changes in files:
 print.js, MyDB.js, MyMETADATA.js, MyComand.js, MySelect.js
 Several minor bugs have been fixed.
 Improved PDF printing logic.
+///////////
