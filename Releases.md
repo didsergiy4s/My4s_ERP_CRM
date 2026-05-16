@@ -35,6 +35,7 @@ Attention!! starting from version v1.0.7, new releases will be provided here - t
 
 v1.0.7 This version will include the full My4S folder.
 If someone is just starting to work with the program, they can simply replace the My4S folder from this release!
-Others can only replace the Start4s.js, ..mydb\db\index.js, ..node_modules\MyPassw.js files.
+Others can only replace the Start4s.js, ..mydb\db\index.js, ..node_modules\MyPassw.js, mydb3\db\index.js files.
+
 Google Drive link: 
 https://drive.google.com/file/d/1fNOAwCdPIUYRy0LNjfCsV4rSEcXA3yKv/view?usp=drive_link
