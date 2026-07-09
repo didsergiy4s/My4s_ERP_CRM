@@ -39,3 +39,20 @@ Others can only replace the Start4s.js, ..mydb\db\index.js, ..node_modules\MyPas
 
 Google Drive link: 
 https://drive.google.com/file/d/1fNOAwCdPIUYRy0LNjfCsV4rSEcXA3yKv/view?usp=drive_link
+
+_______________________________________________________________________________________
+
+v1.0.8 This version has improved work with the ODBC driver and significantly increased speed
+Works with Firebird. Details in Helps.
+
+This version will include the full My4S folder.
+If someone is just starting to work with the program, they can simply replace the My4S folder from this release!
+
+Others can only replace the files Start4s.js, MySelect3.js, MyComand3.js, ..node_modules\MyDB.js, ..node_modules\MyMETADATA.js,
+..node_modules\MyGetSelect.js.
+
+Google Drive link:
+https://drive.google.com/file/d/15W-iwHh5N94DRIn3PVMMcd8LpUsCgglQ/view?usp=drive_link
+
+_______________________________________________________________________________________
+
