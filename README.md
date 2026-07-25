@@ -68,8 +68,8 @@ Here are the key characteristics of the project:
 
 ## My4S features
 
-After the release of Firebird 3.0 and higher, the restrictions on the size of the database (up to 128 Tb) and tables (up to 64 Tb) were significantly increased.
-In fact, now everything depends only on the capabilities of the server.
+After the release of Firebird 3.0 and higher, the restrictions on the size of the database  were significantly increased.
+In fact, now everything depends only on the capabilities of the server (database up to 128 Tb and tables up to 64 Tb).
 In this regard, I decided to make only one table for documents, directories, information registers and others.
 For the sake of understanding, let's consider only one table for now - directories (CATS). But how can each table accommodate dozens, or maybe hundreds of different directories of the type
 nomenclature, contractors, etc.? Each table has standard columns (id, id_n, name, actual, cod ...), and for the remaining columns we will use the blob(memo) field.
@@ -77,7 +77,7 @@ And all other fields (columns), unique for each directory, we will write in a JS
 NoSQL has been around for a long time, and it is no wonder that reputable databases have begun to implement JSON.
 
                                 Browser forms
-Each table (directories, documents, information registers, and others) will have a single HTML code template with fixed standard data,
+Each table (directories, documents, balance registers, information registers, etc.) will have a single HTML code template with fixed standard data,
 as well as a single-row HTML table template. Two tables are provided for documents: one for the document header (with one row),
 the other for the tabular part (multi-row). This design eliminates the need for a form editor (IDE); it is enough to use a good
 HTML code editor (for example, Visual Studio Code).
@@ -90,9 +90,13 @@ When opening the metadata form, the data is not loaded from the database, but is
 Such preparatory JS files significantly reduce database access, since the program works with pre-loaded data.
 
 The program supports:
+
 • balance registers (simple and accounting, including a reference book of accounting accounts);
+
 • write-off of cost using the average method (I have not yet described Fifo and Lifo - you can add them yourself);
+
 • ready-made turnover and balance information for both balance registers and accounting registers (with selections and saving settings);
+
 • up to seven multi-line tables in one document.
 
                                 Database recovery mechanism
@@ -104,7 +108,7 @@ Recovery process:
 4. Then, all saved files in the logs folder are processed in a loop and passed to Firebird for execution, thus restoring even the changes made in the Designer!
    Attention! So far, I have not inserted this mechanism into My4s. But in the logs folders there is a bec_res folder in which the necessary files are located,
    with the help of which you can restore the database.
-   In these files, you must correctly specify the paths as on your server and also correctly specify the password. THIS will be possible only for experienced programmers.
+   In these files, you must correctly specify the paths as on your server and also correctly specify the password. THIS will be possible only for experienced system administrators or programmers.
 
                                 Working with different time zones
 It is now possible to work with clients in the database while being in different time zones.
@@ -123,6 +127,7 @@ But this description is enough for you to decide whether you want to continue ex
 There are a lot of screens there. If you want to continue, then you first need to install the demo version and go through the description using specific examples.
 Then many things will become clearer.
 
+__
 I express my deep gratitude to the developers of Node.js, Firebird databases, Firebird Editor Pro, Visual Studio Code!
 
 
