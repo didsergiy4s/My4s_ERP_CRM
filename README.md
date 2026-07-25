@@ -31,7 +31,6 @@ My4S can be a great tool for small and medium-sized businesses, especially if yo
    
 Overall, My4S is a ready-made startup that lacks only one thing: for someone to believe in the program.
 
----
 Now I can clearly outline the system portrait for those looking for a solution:
 Full accounting cycle: From a simple customer list (CRM) to complex warehouse (balance registers) and financial operations (accounting accounts).
 Ready Frontend + Backend: No need to design the Firebird database structure from scratch - the basic entities (directories, balance registers, information registers, documents) are already working.
