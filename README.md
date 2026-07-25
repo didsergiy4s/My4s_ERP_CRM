@@ -29,10 +29,8 @@ My4S can be a great tool for small and medium-sized businesses, especially if yo
 5. **Flexible Customization**  
    Add new modules and functions, expand reporting, and integrate with other services.
    
-- Overall, My4S is a ready-made startup that lacks only one thing: for someone to believe in the program.
+Overall, My4S is a ready-made startup that lacks only one thing: for someone to believe in the program.
 
-
-I express my deep gratitude to the developers of Node.js, Firebird databases, Firebird Editor Pro, Visual Studio Code!
 ---
 Now I can clearly outline the system portrait for those looking for a solution:
 Full accounting cycle: From a simple customer list (CRM) to complex warehouse (balance registers) and financial operations (accounting accounts).
@@ -126,6 +124,8 @@ But this description is enough for you to decide whether you want to continue ex
 There are a lot of screens there. If you want to continue, then you first need to install the demo version and go through the description using specific examples.
 Then many things will become clearer.
 
+I express my deep gratitude to the developers of Node.js, Firebird databases, Firebird Editor Pro, Visual Studio Code!
+
 
 ## Documentation
 
@@ -139,7 +139,7 @@ Follow the instructions in the Help file.
 
 ## Contact
 
-✉️ Author: sergey2429@i.ua  
+  Author: sergey2429@i.ua  
 
 ---
 
