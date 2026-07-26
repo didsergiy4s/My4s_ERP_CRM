@@ -32,9 +32,16 @@ My4S can be a great tool for small and medium-sized businesses, especially if yo
 Overall, My4S is a ready-made startup that lacks only one thing: for someone to believe in the program.
 
 Now I can clearly outline the system portrait for those looking for a solution:
-Full accounting cycle: From a simple customer list (CRM) to complex warehouse (balance registers) and financial operations (accounting accounts).
-Ready Frontend + Backend: No need to design the Firebird database structure from scratch - the basic entities (directories, balance registers, information registers, documents) are already working.
-Zero Cost: Powerful Enterprise-level tool, available as a free startup
+
+Full accounting cycle: 
+
+From a simple customer list (CRM) to complex warehouse (balance registers) and financial operations (accounting accounts).
+Ready Frontend + Backend:
+
+No need to design the Firebird database structure from scratch - the basic entities (directories, balance registers, information registers, documents) are already working.
+Zero Cost:
+
+Powerful Enterprise-level tool, available as a free startup
 
 Why it's perfect for a beginner developer or startup:
 Minimal "Time to Market": Instead of spending half a year designing tables and relationships for double-entry in SQL, a developer can deploy My4s and
@@ -87,7 +94,7 @@ Before opening the form, the template will be dynamically updated for each speci
 The program is designed to minimize database access. Everything created in the Designer is described by the properties of each metadata
 and written to the blob of the table field. At the same time, this data is saved in a special JS file associated with a specific metadata.
 When opening the metadata form, the data is not loaded from the database, but is connected via the SRC JS file. This file is updated with each change in metadata in the Designer.
-Such preparatory JS files significantly reduce database access, since the program works with pre-loaded data.
+Such preparatory JS files significantly reduce database access time, since the program works with pre-loaded data.
 
 The program supports:
 
@@ -127,8 +134,7 @@ But this description is enough for you to decide whether you want to continue ex
 There are a lot of screens there. If you want to continue, then you first need to install the demo version and go through the description using specific examples.
 Then many things will become clearer.
 
-__
-I express my deep gratitude to the developers of Node.js, Firebird databases, Firebird Editor Pro, Visual Studio Code!
+@  I express my deep gratitude to the developers of Node.js, Firebird databases, Firebird Editor Pro, Visual Studio Code!
 
 
 ## Documentation
