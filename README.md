@@ -39,9 +39,8 @@ From a simple customer list (CRM) to complex warehouse (balance registers) and f
 Ready Frontend + Backend:
 
 No need to design the Firebird database structure from scratch - the basic entities (directories, balance registers, information registers, documents) are already working.
-Zero Cost:
 
-Powerful Enterprise-level tool, available as a free startup
+Zero Cost: Powerful Enterprise-level tool, available as a free startup
 
 Why it's perfect for a beginner developer or startup:
 Minimal "Time to Market": Instead of spending half a year designing tables and relationships for double-entry in SQL, a developer can deploy My4s and
