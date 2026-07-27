@@ -62,14 +62,15 @@ access the database every time.
 - In the demo database, for example, there is a `my.js` file connected to the required document and executed in its context:
   ```html
   <script src="Myjsjs/DOCS/id_n__/my.js"></script>
-Calling your functions
+Calling your functions:
 Standard My4S modules already have reserved entry points for your functions:
 
-js
+js:
+
 if (typeof YY == "function") YY();
 where YY is the name of your function.
 
-To see all such places, run a global search for == "function".
+To see all such places, run a global search for `== "function"`.
 
 If that’s not enough, you can insert your own check line wherever needed.
 
