@@ -36,11 +36,46 @@ Now I can clearly outline the system portrait for those looking for a solution:
 Full accounting cycle: 
 
 From a simple customer list (CRM) to complex warehouse (balance registers) and financial operations (accounting accounts).
+
 Ready Frontend + Backend:
 
 No need to design the Firebird database structure from scratch - the basic entities (directories, balance registers, information registers, documents) are already working.
 
-Zero Cost: Powerful Enterprise-level tool, available as a free startup
+Zero Cost: Powerful Enterprise-level tool, available as a free startup.
+
+
+## And most importantly
+
+In most cases, you will use the program as a readyâ€‘made product (after configuring it in the Constructor for your tasks).  
+However, the logic â€” mathematics and other calculations â€” you will write yourself in custom modules and functions (or maybe AI will help you í ½í¹‚).
+
+### How it works
+- My4S is designed so you donâ€™t have to worry about how to integrate your own code into the program.  
+- When you create metadata, reports, or other objects in the Constructor, the system automatically generates a folder hierarchy inside the `Myjsjs` directory of your database.  
+- Each final folder always contains at least one file `myXX.js`.  
+  - This file is created automatically by the Constructor.  
+  - It **must not be modified**, because it stores the description of the object, so the program can read it directly instead of querying the database every time.
+
+### Adding your own modules
+- You can place your own `*.js` modules in the same folder.  
+- In the demo database, for example, there is a `my.js` file connected to the required document and executed in its context:
+  ```html
+  <script src="Myjsjs/DOCS/id_n__/my.js"></script>
+Calling your functions
+Standard My4S modules already have reserved entry points for your functions:
+
+js
+if (typeof YY == "function") YY();
+where YY is the name of your function.
+
+To see all such places, run a global search for == "function".
+
+If thatâ€™s not enough, you can insert your own check line wherever needed.
+
+Once your function is found, you can manipulate the program as you wish.
+
+More details
+For instructions on how to properly connect modules and functions, please refer to the Help section.
 
 Why it's perfect for a beginner developer or startup:
 Minimal "Time to Market": Instead of spending half a year designing tables and relationships for double-entry in SQL, a developer can deploy My4s and
