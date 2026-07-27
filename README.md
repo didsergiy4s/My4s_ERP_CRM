@@ -111,7 +111,7 @@ Here are the key characteristics of the project:
 
 After the release of Firebird 3.0 and higher, the restrictions on the size of the database  were significantly increased.
 In fact, now everything depends only on the capabilities of the server (database up to 128 Tb and tables up to 64 Tb).
-In this regard, I decided to make only one table for documents, directories, information registers and others.
+In this regard, I decided to make only one table for documents, catalogs, information registers, and other things.
 For the sake of understanding, let's consider only one table for now - directories (CATS). But how can each table accommodate dozens, or maybe hundreds of different directories of the type
 nomenclature, contractors, etc.? Each table has standard columns (id, id_n, name, actual, cod ...), and for the remaining columns we will use the blob(memo) field.
 And all other fields (columns), unique for each directory, we will write in a JSON-type string. I think experienced programmers have already understood my idea.
