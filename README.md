@@ -50,11 +50,12 @@ In most cases, you will use the program as a readyâ€‘made product (after configu
 However, the logic â€” mathematics and other calculations â€” you will write yourself in custom modules and functions (or maybe AI will help you í ½í¹‚).
 
 ### How it works
-- My4S is designed so you donâ€™t have to worry about how to integrate your own code into the program.  
-- When you create metadata, reports, or other objects in the Constructor, the system automatically generates a folder hierarchy inside the `Myjsjs` directory of your database.  
-- Each final folder always contains at least one file `myXX.js`.  
-  - This file is created automatically by the Constructor.  
-  - It **must not be modified**, because it stores the description of the object, so the program can read it directly instead of querying the database every time.
+- Everything in My4S is organized in such a way that you don't need to think about how to properly integrate the official application code.
+- When metadata, data and other objects are created in the Designer, a folder `Myjsjs` is automatically created in the My4s folder in the directory of a specific database (mydb) with
+A hierarchy of folders with names representing the objects.
+- Each end of the hierarchy has at least one `myXX.js` file.
+This file is automatically created by the Designer. It **cannot be changed**, and you must also change the object description so that the application takes the data
+and not the skin that was once brutally processed to the core.
 
 ### Adding your own modules
 - You can place your own `*.js` modules in the same folder.  
