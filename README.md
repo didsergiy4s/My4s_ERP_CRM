@@ -146,7 +146,7 @@ Recovery process:
 1. After creating a database backup archive, logging of all UPDATE and INSERT operations begins.
 2. All SQL UPDATE and INSERT blocks that are passed to the Firebird driver are written to files inside the logs folder for each database separately, if you have several databases on your computer.
 3. In case of a failure, the database is restored from the last backup archive.
-4. Then, all saved files in the logs folder are processed in a loop and passed to Firebird for execution, thus restoring even the changes made in the Designer! 
+4. Then, all saved files in the logs folder are processed in a loop and passed to Firebird for execution, thus restoring even the changes made in the Designer!!
 Attention! So far, I have not inserted this mechanism into My4s. But in the logs folder there is a bec_res folder, which contains the necessary files with which you can restore the database.
 In these files, you must correctly specify the paths as on your server, as well as correctly specify the password.
 This will be possible only for experienced system administrators or programmers.
