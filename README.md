@@ -82,8 +82,6 @@ For instructions on how to properly connect modules and functions, please refer 
 Why it's perfect for a beginner developer or startup:
 Minimal "Time to Market": Instead of spending half a year designing tables and relationships for double-entry in SQL, a developer can deploy My4s and
 in a week give the client a prototype that can already calculate balances and show the balance.
-Freedom of choice: You don't impose exactly what the business process should look like. One person will create a system for a pharmacy on your database, another for accounting for auto parts,
-and the third for managing a small charitable foundation.
 Low cost of error: Since the database is already ready and tested, the risk of making an error in balance calculations or accounting entries is minimal.
 
 My4s is a specialized tool for developers that combines the properties of a framework and a Frontend designer. Unlike ready-made static programs,
@@ -138,20 +136,20 @@ The program supports:
 
 • write-off of cost using the average method (I have not yet described Fifo and Lifo - you can add them yourself);
 
-• ready-made turnover and balance information for both balance registers and accounting registers (with selections and saving settings);
+•Turnover and balance sheet for both balance registers and accounting registers (with selections and saving settings);
 
 • up to seven multi-line tables in one document.
 
                                 Database recovery mechanism
-I have developed and successfully tested a database recovery mechanism after a critical failure. Its essence is to restore the database exactly to the moment of failure.
+A database recovery mechanism after a critical failure has been developed and successfully tested. Its essence is to restore the database exactly to the moment of failure.
 Recovery process:
 1. After creating a database backup archive, logging of all UPDATE and INSERT operations begins.
 2. All SQL UPDATE and INSERT blocks that are passed to the Firebird driver are written to files inside the logs folder for each database separately, if you have several databases on your computer.
 3. In case of a failure, the database is restored from the last backup archive.
 4. Then, all saved files in the logs folder are processed in a loop and passed to Firebird for execution, thus restoring even the changes made in the Designer!
-   Attention! So far, I have not inserted this mechanism into My4s. But in the logs folders there is a bec_res folder in which the necessary files are located,
-   with the help of which you can restore the database.
-   In these files, you must correctly specify the paths as on your server and also correctly specify the password. THIS will be possible only for experienced system administrators or programmers.
+Attention! So far, I have not inserted this mechanism into My4s. But in the logs folder there is a bec_res folder, which contains the necessary files with which you can restore the database.
+In these files, you must correctly specify the paths as on your server, as well as correctly specify the password.
+This will be possible only for experienced system administrators or programmers.
 
                                 Working with different time zones
 It is now possible to work with clients in the database while being in different time zones.
