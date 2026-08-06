@@ -65,9 +65,7 @@ access the database every time.
 Calling your functions:
 Standard My4S modules already have reserved entry points for your functions:
 
-js:
-
-if (typeof YY == "function") YY();
+js: if (typeof YY == "function") YY();
 where YY is the name of your function.
 
 To see all such places, run a global search for `== "function"`.
@@ -77,7 +75,7 @@ If that’s not enough, you can insert your own check line wherever needed.
 Once your function is found, you can manipulate the program as you wish.
 
 More details
-For instructions on how to properly connect modules and functions, please refer to the Help section.
+For instructions on how to properly connect modules and functions, please refer to the Help file.
 
 Why it's perfect for a beginner developer or startup:
 Minimal "Time to Market": Instead of spending half a year designing tables and relationships for double-entry in SQL, a developer can deploy My4s and
@@ -164,7 +162,7 @@ then the program with different zones will start working!
 
                                 Let's summarize what was written above.
 I understand that in some places the description may not be completely clear right away.
-But this description is enough for you to decide whether you want to continue exploring My4s or not. First, read the Help carefully.
+But this description is enough for you to decide whether you want to continue exploring My4s or not. First, read the Help file.
 There are a lot of screens there. If you want to continue, then you first need to install the demo version and go through the description using specific examples.
 Then many things will become clearer.
 
