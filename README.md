@@ -95,7 +95,7 @@ Here are the key characteristics of the project:
    Node.js: Used as an execution environment for the server part.
    Firebird SQL: A reliable relational database that is often chosen for its stability and ease of administration in accounting systems.
    JavaScript: The main development language.
-3. Project philosophy
+3. Project philosophy:  
    The main idea of ​​My4s is flexibility. This is not a "boxed" solution where the user is limited to the developer's functionality, namely the designer. It allows you to:
    Quickly create interfaces (Frontend) for specific business tasks.
    Scale the system depending on the needs of the project.
