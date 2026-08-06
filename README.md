@@ -98,8 +98,9 @@ Here are the key characteristics of the project:
 3. Project philosophy:  
    Total minimalism—what does this mean? The author wrote the entire code using plain JS, relying only on a single Node.exe server file and its native built-in functions from Node.js!
    The author of My4s refuses to rely on third-party developers who could disappear and leave behind code that breaks with the next Windows or Node.js update (learned from prior experience!).
-   The software must keep working for years—even if the author can no longer support it!   The main idea of ​​My4s is flexibility.
+   The software must keep working for years—even if the author can no longer support it!
  
+   The main idea of ​​My4s is flexibility.
    This is not a "boxed" solution where the user is limited to the developer's functionality, namely the designer. It allows you to:
    Quickly create interfaces (Frontend) for specific business tasks.
    Scale the system depending on the needs of the project.
