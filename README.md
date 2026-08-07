@@ -165,6 +165,12 @@ When receiving reports by date, again using Offset, we receive a report in the c
 By default, the program is configured to work in one time zone. In the Blob.js module, at the beginning, there is a variable: "let timezoneOffset = 0;". If you set this variable to 1,
 then the program with different zones will start working!
 
+                                Working with dates
+In My4S I hardly use the built-in Firebird DATE type, and instead I use the date as a big number (BIGINT)
+formed in JavaScript. All queries are formed in JavaScript modules — so why waste machine time converting a date from JavaScript to a Firebird date and back!
+Although in the two tables DOCS and REGS I still use the DATE type in the DATEFB column (without time).
+This is necessary for selections by date periods (day, week, month, quarter …). And Firebird already has built-in functions for working with dates!
+
                                 Let's summarize what was written above.
 I understand that in some places the description may not be completely clear right away.
 But this description is enough for you to decide whether you want to continue exploring My4s or not. First, read the Help file.
