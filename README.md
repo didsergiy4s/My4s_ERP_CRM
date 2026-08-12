@@ -1,6 +1,6 @@
 ï»¿# My4S
 
-**My4S** â€“ a constructor program for building web applications (ERP, CRM, etc).
+**My4S** â€“ a configurator program for building web applications (ERP, CRM, etc).
 - It is a freely distributed web application with open-source code.
 
 - **Server side:** Node.js (currently Windows only)  
@@ -46,7 +46,7 @@ Zero Cost: Powerful Enterprise-level tool, available as a free startup.
 
 ## And most importantly
 
-In most cases, you will use the program as a readyâ€‘made product (after configuring it in the Constructor for your tasks).  
+In most cases, you will use the program as a readyâ€‘made product (after configuring it in the configurator for your tasks).  
 However, the logic â€” mathematics and other calculations â€” you will write yourself in custom modules and functions (or maybe AI will help you í ½í¹‚).
 
 ### How it works
