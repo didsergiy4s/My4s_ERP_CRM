@@ -142,7 +142,8 @@ The program supports:
 •Turnover and balance sheet for both balance registers and accounting registers (with selections and saving settings);
     The Balance Sheet is a universal report for all balance registers. It does not require configuration in the Configurator,
     as it is already built into the Enterprise system and automatically adapts to the parameters of each register.
-• up to seven multi-line tables in one document.
+
+• Up to seven multi-line tables in one document.
 
                                 Database recovery mechanism
 A database recovery mechanism after a critical failure has been developed and successfully tested. Its essence is to restore the database exactly to the moment of failure.
