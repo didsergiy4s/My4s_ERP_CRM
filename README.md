@@ -151,7 +151,7 @@ Recovery process:
 1. After creating a database backup archive, logging of all UPDATE and INSERT operations begins.
 2. All SQL UPDATE and INSERT blocks that are passed to the Firebird driver are written to files inside the logs folder for each database separately, if you have several databases on your computer.
 3. In case of a failure, the database is restored from the last backup archive.
-4. Then, all saved files in the logs folder are processed in a loop and passed to Firebird for execution, thus restoring even the changes made in the Designer!!
+4. Then, all saved files in the logs folder are processed in a loop and passed to Firebird for execution, thus restoring even the changes made in the configuration!!
 Attention! So far, I have not inserted this mechanism into My4s. But in the logs folder there is a bec_res folder, which contains the necessary files with which you can restore the database.
 In these files, you must correctly specify the paths as on your server, as well as correctly specify the password.
 This will be possible only for experienced system administrators or programmers.
@@ -177,12 +177,20 @@ and when recording dates on the server we adjust the client's date to this Offse
 When receiving reports by date, again using Offset, we receive a report in the client's time zone!
 By default, the program is configured to work in one time zone. In the Blob.js module, at the beginning, there is a variable: "let timezoneOffset = 0;". If you set this variable to 1,
 then the program with different zones will start working!
+Attention! timezoneOffset can only be set at the beginning of the database operation!!
 
                                 Working with dates
 In My4S I hardly use the built-in Firebird DATE type, and instead I use the date as a big number (BIGINT)
 formed in JavaScript. All queries are formed in JavaScript modules — so why waste machine time converting a date from JavaScript to a Firebird date and back!
 Although in the two tables DOCS and REGS I still use the DATE type in the DATEFB column (without time).
 This is necessary for selections by date periods (day, week, month, quarter …). And Firebird already has built-in functions for working with dates!
+
+                                Working with reports
+In My4s, preparing reports is as simple as possible. There are two types of reports in the configurator. You can choose the type that suits you best.
+There are also quick reports. You do not need a configurator to create and edit these reports - they are generated directly in the "Enterprise" system.
+This feature allows each user (for example, an accountant) to independently create their own reports.
+Of course, programmers must first teach them this.
+You can learn more about creating reports in the Help_**.pdf file!
 
                                 Let's summarize what was written above.
 I understand that in some places the description may not be completely clear right away.
