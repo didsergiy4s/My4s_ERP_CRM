@@ -75,7 +75,7 @@ If that’s not enough, you can insert your own check line wherever needed.
 Once your function is found, you can manipulate the program as you wish.
 
 More details
-For instructions on how to properly connect modules and functions, please refer to the HeHelp_**.pdf lp file.
+For instructions on how to properly connect modules and functions, please refer to the Help_**.pdf lp file.
 
 Why it's perfect for a beginner developer or startup:
 Minimal "Time to Market": Instead of spending half a year designing tables and relationships for double-entry in SQL, a developer can deploy My4s and
