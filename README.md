@@ -51,10 +51,10 @@ However, the logic — mathematics and other calculations — you will write you
 
 ### How it works
 - In My4S, everything is done so that you do not have to think about how to properly integrate your own code into the program.
-- When creating metadata, reports and other objects in the Designer, in the My4s folder in the directory of a specific database (mydb) - there is a folder `Myjsjs`,
+- When creating metadata, reports and other objects in the Configuration, in the My4s folder in the directory of a specific database (mydb) - there is a folder `Myjsjs`,
    in it a hierarchy of folders with names corresponding to the objects is automatically created.
 - In each final folder of the hierarchy there is always at least one file `myXX.js`.
-This file is created automatically by the Designer. It cannot be changed, because it contains a description of the object so that the program takes data from there, and does not
+This file is created automatically by the Configuration. It cannot be changed, because it contains a description of the object so that the program takes data from there, and does not
 access the database every time.
 
 ### Adding your own modules
@@ -82,7 +82,7 @@ Minimal "Time to Market": Instead of spending half a year designing tables and r
 in a week give the client a prototype that can already calculate balances and show the balance.
 Low cost of error: Since the database is already ready and tested, the risk of making an error in balance calculations or accounting entries is minimal.
 
-My4s is a specialized tool for developers that combines the properties of a framework and a Frontend designer. Unlike ready-made static programs,
+My4s is a specialized tool for developers that combines the properties of a framework and a Frontend Configuration. Unlike ready-made static programs,
 this project is created as a flexible framework for building business automation systems.
 Here are the key characteristics of the project:
 1. Purpose and scope
@@ -101,7 +101,7 @@ Here are the key characteristics of the project:
    The software must keep working for years—even if the author can no longer support it!
  
    The main idea of ​​My4s is flexibility.
-   This is not a "boxed" solution where the user is limited to the developer's functionality, namely the designer. It allows you to:
+   This is not a "boxed" solution where the user is limited to the developer's functionality, namely the Configuration. It allows you to:
    Quickly create interfaces (Frontend) for specific business tasks.
    Scale the system depending on the needs of the project.
    Use open source code for free distribution and improvement by the community.
@@ -128,9 +128,9 @@ HTML code editor (for example, Visual Studio Code).
 Before opening the form, the template will be dynamically updated for each specific metadata object, using data stored in blob fields or JS files.
 
                                 Database optimization
-The program is designed to minimize database access. Everything created in the Designer is described by the properties of each metadata
+The program is designed to minimize database access. Everything created in the Configuration is described by the properties of each metadata
 and written to the blob of the table field. At the same time, this data is saved in a special JS file associated with a specific metadata.
-When opening the metadata form, the data is not loaded from the database, but is connected via the SRC JS file. This file is updated with each change in metadata in the Designer.
+When opening the metadata form, the data is not loaded from the database, but is connected via the SRC JS file. This file is updated with each change in metadata in the Configuration.
 Such preparatory JS files significantly reduce database access time, since the program works with pre-loaded data.
 
 The program supports:
