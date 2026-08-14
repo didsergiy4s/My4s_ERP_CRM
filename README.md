@@ -75,7 +75,7 @@ If that’s not enough, you can insert your own check line wherever needed.
 Once your function is found, you can manipulate the program as you wish.
 
 More details
-For instructions on how to properly connect modules and functions, please refer to the Help file.
+For instructions on how to properly connect modules and functions, please refer to the HeHelp_**.pdf lp file.
 
 Why it's perfect for a beginner developer or startup:
 Minimal "Time to Market": Instead of spending half a year designing tables and relationships for double-entry in SQL, a developer can deploy My4s and
@@ -194,7 +194,7 @@ You can learn more about creating reports in the Help_**.pdf file!
 
                                 Let's summarize what was written above.
 I understand that in some places the description may not be completely clear right away.
-But this description is enough for you to decide whether you want to continue exploring My4s or not. First, read the Help file.
+But this description is enough for you to decide whether you want to continue exploring My4s or not. First, read the Help_**.pdf file.
 There are a lot of screens there. If you want to continue, then you first need to install the demo version and go through the description using specific examples.
 Then many things will become clearer.
 
@@ -207,7 +207,7 @@ Then many things will become clearer.
 - ߓĠ[Help4s_ua.pdf](Help4s_ua.pdf) — Ukrainian description  
 
 ⚙️ The file `Distrib_My4s.zip` (available in [Releases](../../releases)) contains everything needed to build the program.  
-Follow the instructions in the Help file.
+Follow the instructions in the Help_**.pdf file.
 
 ---
 
